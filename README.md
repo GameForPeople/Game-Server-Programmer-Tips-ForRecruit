@@ -1,17 +1,39 @@
-# game-server-base-keywords
-신입 게임 서버 프로그래머, 시험 및 기술 면접 예상 키워드 정리
+# Game-Server-Programmer-Tips-ForRecruit
+>해당 문서는 제가 채용 과정에서 경험한 내용들을 바탕으로, 
+>
+>다른 신입 게임 서버 프로그래밍 파트 지원자분들에게 도움이 될 수 있도록 간단하게 정리했습니다.
 
-[0. C++](#cpp)
+## Index
 
-[1. 네트워크, I/O](#network)
+#### A. 2019년 신입 서버 공채 후기[->](#chapter0)
 
-[2. 멀티 스레드 & 동기화 프로그래밍](#multithread)
+#### B. 포트폴리오 팁[->](#chapter1)
 
-[3. 자료 구조 & 알고리즘](#algorithm)
+#### C. 자소서 및 기술 면접 팁[->](#chapter2)
 
-[4. Database](#database)
+#### D. 필기 시험 및 기술 면접 이론 키워드[->](#chapter3)
+   >[0. C++](#cpp)
+   >
+   >[1. 네트워크, I/O](#network)
+   >
+   >[2. 멀티 스레드 & 동기화 프로그래밍](#multithread)
+   >
+   >[3. 자료 구조 & 알고리즘](#algorithm)
+   >
+   >[4. 데이터 베이스](#database)
 
-## <a name="cpp"></a>0. C++
+#### E. 기타 링크
+ * [국내 게임 회사 채용 사이트 모음](https://github.com/GameForPeople/korea-game-career-site)
+
+## <a name="chapter0"></a>A. 2019년 신입 서버 공채 후기
+
+## <a name="chapter1"></a>B. 포트폴리오 팁
+
+## <a name="chapter2"></a>C. 자소서 및 기술 면접 팁
+
+## <a name="chapter3"></a>D. 필기 시험 및 기술 면접 이론 키워드
+
+### <a name="cpp"></a>0. C++
 
 #### 기초
 > * `Called By Reference`와 `Called By Value`의 정의, 비교 등
@@ -91,8 +113,7 @@
 > * 그 외 자잘한 것들 : if-init, Structured binding, std::optional, std::any...
 
 
-
-## <a name="network"></a> 1. 네트워크, I/O
+### <a name="network"></a> 1. 네트워크, I/O
  - 웹에 대한 지식이 없어, 관련 내용이 없습니다. (예외 1. https vs http 2. https 보안 로직 3. Get vs Post)
  
 #### 기초
@@ -140,7 +161,7 @@
 > * Serverless architecture
 > * Special OS?
 
-## <a name="multithread"></a> 2. 멀티 스레드 & 동기화 프로그래밍 & 관련 이론
+### <a name="multithread"></a> 2. 멀티 스레드 & 동기화 프로그래밍 & 관련 이론
 
 #### 기초
 > * 스레드? 프로세스? ( 멀티 쓰레드 vs 멀티 프로세스 )
@@ -183,7 +204,7 @@
 > * 멀티 스레드 특화 언어들에 대한 기본 지식
 > * 함수형 언어들에 대한 특징, 지식
 
-## <a name="algorithm"></a>3. 자료 구조 & 알고리즘
+### <a name="algorithm"></a>3. 자료 구조 & 알고리즘
  - 해당 항목 에서는 온라인/오프라인 코딩 테스트의 알고리즘이 아닌, 기술 면접과 시험에서의 주제를 다룹니다.
 
 #### 기초
