@@ -2,11 +2,16 @@
 신입 게임 서버 프로그래머, 시험 및 기술 면접 예상 키워드 정리
 
 [0. C++](#cpp)
-[1. 네트워크, I/O](#network)
-[2. 멀티 스레드 & 동기화 프로그래밍](#multithread)
-[3. Database](#database)
 
-## <a name="cpp"></a>C++
+[1. 네트워크, I/O](#network)
+
+[2. 멀티 스레드 & 동기화 프로그래밍](#multithread)
+
+[3. 자료 구조 & 알고리즘](#algorithm)
+
+[4. Database](#database)
+
+## <a name="cpp"></a>0. C++
 
 #### 기초
 > * `Called By Reference`와 `Called By Value`의 정의, 비교 등
@@ -32,11 +37,6 @@
 > * 명시적 클래스 특수화, 명시적 함수 특수화, template instance
 > * variadic template, parameter pack, fold expression
 > * type_traits library
-
-> * C-style Array vs STL::Vector 
-> * Vector(Array) vs List
-> * unordered_map vs map
-> * stack vs queue
 
 > * `RAII`(Resource Acquisition Is Initialization)
 > * 스마트 포인터 (`unique_ptr`, `shared_ptr`, `weak_ptr`) 특징 및 비교
@@ -92,8 +92,8 @@
 
 
 
-## <a name="network"></a> 네트워크, I/O
- - 웹에 대한 지식이 없어, 관련 내용이 없습니다. (예외 1. https vs http 2. https 보안 로직)
+## <a name="network"></a> 1. 네트워크, I/O
+ - 웹에 대한 지식이 없어, 관련 내용이 없습니다. (예외 1. https vs http 2. https 보안 로직 3. Get vs Post)
  
 #### 기초
 > * TCP와 UDP의 기본적인 정의, 특징, 비교
@@ -101,7 +101,7 @@
 > * TCP 헤더의 각 필드와 그 역할 (+UDP 헤더 구성)
 > * TCP Checksum 동작 원리
 > * TCP ACK-SEQ 동작 원리
-> * TCP Socket 상태
+> * TCP 상태
 > * TCP 3way-hand-shaking의 정의, 이유, 각 과정에서 일어나는 일
 > * TCP 4way-hand-shaking와 다양한 연결 종료 상태, 우아한 종료
 
@@ -118,8 +118,15 @@
 > * 블로킹 vs 논블로킹
 > * 동기 vs 비동기
 > * 블로킹 개념 vs 동기 개념
-> * 대칭키 암호화 vs 비대칭키 암호화
 
+> * 대칭키 암호화 vs 비대칭키 암호화
+> * 스푸핑, 스누핑, syn flooding,
+
+> * silly window syndrome?
+> * Tcp Packet Loss algorithm
+> * TCP 혼잡 제어, 흐름 제어는 어케?
+
+> * IP, Port, MAC ADDR ?
 > * OSI 7계층의 각 계층 명칭 및 간단한 정의, 역할 등 서술
 > * p2p NAT 투과 : 홀 펀칭(TCP) & Simple traversal of UDP through NAT(UDP)
 
@@ -133,7 +140,7 @@
 > * Serverless architecture
 > * Special OS?
 
-## <a name="multithread"></a>멀티 스레드 & 동기화 프로그래밍 & 관련 이론
+## <a name="multithread"></a> 2. 멀티 스레드 & 동기화 프로그래밍 & 관련 이론
 
 #### 기초
 > * 스레드? 프로세스? ( 멀티 쓰레드 vs 멀티 프로세스 )
@@ -176,27 +183,68 @@
 > * 멀티 스레드 특화 언어들에 대한 기본 지식
 > * 함수형 언어들에 대한 특징, 지식
 
-## <a name="database"></a>DB
+## <a name="algorithm"></a>3. 자료 구조 & 알고리즘
+ - 해당 항목 에서는 온라인/오프라인 코딩 테스트의 알고리즘이 아닌, 기술 면접과 시험에서의 주제를 다룹니다.
+
+#### 기초
+> * C-style Array vs STL::Vector 
+> * Vector(Array) vs List
+> * map vs unordered_map
+> * stack vs queue
+> * queue vs deque
+> * STL 각 컨테이너들은 어떤 자료구조로 되어 있는가 (priority_queue? map? unordered_map?)
+
+> * big-O?
+> * 각 컨테이너에서의 탐색 비용
+> * 각 컨테이너에서의 정렬 비용
+
+> * 정렬 알고리즘에 대한 특징(워스트 케이스, 요구 사항) 및 비용 - 퀵, 버블, 선택, 삽입, 힙, 레딕스..
+> * 각 정렬 알고리즘 정도는 손코딩
+
+> * 트리 구조의 Best, Worst 케이스 
+> * AVL Tree VS Red-Black Tree 선택 기준은?
+
+> * 재귀 함수의 장/단점, 꼬리 재귀(Tail Recusion)?
+> * 팩토리얼 & 하노이탑 & 피보나치 손코딩
+
+> * DFS, BFS
+> * Pre-order, Post-order, In-order
+> * 다익스트라?
+> * A*?
+
+> * 해싱?
+> * 많이 사용되는 해싱 함수들? (std::hash는 ?)
+> * 해싱 충돌 극복(체이닝, 오픈 어드레스, 더블 해싱)의 각 특징 및 장단점
+> * rehash?
+
+#### 심화
+> * 허프만 알고리즘?
+> * SkipList?
+> * Vector Heap?
+> * JPS(Jump Point Search)?
+
+## <a name="database"></a> 4. DB
 
 #### 기초
 > * DB 용어
 > * 트랜잭션과 ACID
-> * 기본 키, 후보 키, 외래 키
+> * 기본 키, 후보 키, 대체 키, 슈퍼 키, 외래 키
 > * 외래 키 옵션 (RESTRICT, CASCADE, SET NULL, SET DEFAULT...) 
 > * 각 정규화 단계 및 특징
 > * 무결성 제약 조건 종류 및 특징
 > * Join 종류
 > * 샤딩, 파티셔닝 종류 및 주의 사항 
 
-> * 인덱스 및 B+트리
+> * 인덱스
 > * 클러스터링 인덱스, 논클러스트링 인덱스
+> * B+트리의 삽입, 삭제, 탐색
 
 > * SQL 정의어 조작어 제어어
-> * SQL 기본 Query 작성 (정렬, 조인, 등등)
+> * SQL 기본 Query 작성 (정렬, 조인, 그룹 등등)
 
 > * ODBC
 > * Stored procedure? 장점?
 
-> * NoSQL?
-> * NoSQL VS RDBMS
+> * NoSQL 정의, 특징, 종류
+> * NoSQL VS RDBMS (핫해핫해)
 
