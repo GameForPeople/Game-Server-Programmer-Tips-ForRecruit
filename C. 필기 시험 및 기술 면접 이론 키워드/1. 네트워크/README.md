@@ -1,4 +1,4 @@
-﻿### <a name="network"></a> 1. 네트워크, I/O
+﻿## <a name="network"></a> 1. 네트워크, I/O
  - 웹에 대한 지식이 없어, 관련 내용이 없습니다. (예외 1. https vs http 2. https 보안 로직 3. Get vs Post)
  
 #### 기초
@@ -36,6 +36,8 @@
 > * OSI 7계층의 각 계층 명칭 및 간단한 정의, 역할 등 서술
 > * p2p NAT 투과 : 홀 펀칭(TCP) & Simple traversal of UDP through NAT(UDP)
 
+___
+
 #### 심화
 > * Boost/Asio 모델
 > * EPOLL 모델
@@ -45,3 +47,7 @@
 > * 블록체인
 > * Serverless architecture
 > * Special OS?
+
+___
+ 
+[[이전]](https://github.com/GameForPeople/Game-Server-Programmer-Tips-ForRecruit/tree/master/C.%20%ED%95%84%EA%B8%B0%20%EC%8B%9C%ED%97%98%20%EB%B0%8F%20%EA%B8%B0%EC%88%A0%20%EB%A9%B4%EC%A0%91%20%EC%9D%B4%EB%A1%A0%20%ED%82%A4%EC%9B%8C%EB%93%9C)

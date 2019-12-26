@@ -1,4 +1,4 @@
-﻿### <a name="multithread"></a> 2. 멀티 스레드 & 동기화 프로그래밍
+﻿## <a name="multithread"></a> 2. 멀티 스레드 & 동기화 프로그래밍
 
 #### 기초
 > * 스레드? 프로세스? ( 멀티 쓰레드 vs 멀티 프로세스 )
@@ -35,8 +35,14 @@
 > * ABA문제의 원인과 해결 방안
 > * Heterogeneous vs Homogeneous ,, 클라는? 서버는? 미래에는?
 
+___
+
 #### 심화
 > * 다양한 라이브러리에 대한 상식 (Parallel Patterns Library(MS), Intel-TBB, OpenMP)
 > * 상식 수준의 유명한 문제들 (잠자는 이발사, 식사하는 철학자, Cigarette Smokers Problem, readers-writers, producer-consumer)
 > * 멀티 스레드 특화 언어들에 대한 기본 지식
 > * 함수형 언어들에 대한 특징, 지식
+
+___
+ 
+[[이전]](https://github.com/GameForPeople/Game-Server-Programmer-Tips-ForRecruit/tree/master/C.%20%ED%95%84%EA%B8%B0%20%EC%8B%9C%ED%97%98%20%EB%B0%8F%20%EA%B8%B0%EC%88%A0%20%EB%A9%B4%EC%A0%91%20%EC%9D%B4%EB%A1%A0%20%ED%82%A4%EC%9B%8C%EB%93%9C)
