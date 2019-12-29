@@ -11,7 +11,7 @@
 
 #### A. 2019년 신입 서버 공채 후기 [[Link]](https://github.com/GameForPeople/Game-Server-Programmer-Tips-ForRecruit/tree/master/A.%202019%EB%85%84%20%EC%8B%A0%EC%9E%85%20%EC%84%9C%EB%B2%84%20%EA%B3%B5%EC%B1%84%20%ED%9B%84%EA%B8%B0)
 
-#### B. 포트폴리오, 자소서 및 기술 면접에 관하여 [[Link]](https://github.com/GameForPeople/Game-Server-Programmer-Tips-ForRecruit/tree/master/B.%20%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%2C%20%EC%9E%90%EC%86%8C%EC%84%9C%2C%20%EA%B8%B0%EC%88%A0%EB%A9%B4%EC%A0%91%20%ED%8C%81)
+#### B. 포트폴리오, 자소서 및 기술 면접에 관하여 [[Link]](https://github.com/GameForPeople/Game-Server-Programmer-Tips-ForRecruit/tree/master/B.%20%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%2C%20%EC%9E%90%EC%86%8C%EC%84%9C%2C%20%EA%B8%B0%EC%88%A0%EB%A9%B4%EC%A0%91%EC%97%90%20%EA%B4%80%ED%95%98%EC%97%AC)
 
 #### C. 필기 시험 및 기술 면접 이론 키워드 [[Link]](https://github.com/GameForPeople/Game-Server-Programmer-Tips-ForRecruit/tree/master/C.%20%ED%95%84%EA%B8%B0%20%EC%8B%9C%ED%97%98%20%EB%B0%8F%20%EA%B8%B0%EC%88%A0%20%EB%A9%B4%EC%A0%91%20%EC%9D%B4%EB%A1%A0%20%ED%82%A4%EC%9B%8C%EB%93%9C)
 
