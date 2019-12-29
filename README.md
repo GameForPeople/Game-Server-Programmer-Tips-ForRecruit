@@ -1,4 +1,4 @@
-﻿﻿# Game-Server-Programmer-Tips-ForRecruit
+# Game-Server-Programmer-Tips-ForRecruit
 >해당 문서는 제가 채용 과정에서 경험한 내용들을 바탕으로, 
 >
 >다른 신입 게임 서버 프로그래밍 파트 지원자분들에게 도움이 될 수 있도록 간단하게 정리했습니다.
