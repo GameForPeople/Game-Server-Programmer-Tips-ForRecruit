@@ -3,17 +3,19 @@
  
 #### 기초
 > * TCP와 UDP의 기본적인 정의, 특징, 비교
-> * UDP가 TCP보다 빠른 이유(헤더 사이즈에 따른 체크섬 비용, 재전송 관련 불필요 데이터 처리)
-> * TCP 헤더의 각 필드와 그 역할 (+UDP 헤더 구성)
+> * UDP가 TCP보다 빠른 이유(헤더 사이즈에 따른 체크섬 비용 측면, 재전송 관련 불필요 데이터 처리 측면)
+> * TCP 헤더의 각 필드와 그 역할 (+ UDP 헤더 구성)
 > * TCP Checksum 동작 원리
 > * TCP ACK-SEQ 동작 원리
 > * TCP 상태
 > * TCP 3way-hand-shaking의 정의, 이유, 각 과정에서 일어나는 일
 > * TCP 4way-hand-shaking와 다양한 연결 종료 상태, 우아한 종료
 
-> * 소켓 옵션들 정리(소켓 수준, ip수준, tcp 수준)
-> * 네이글 알고리즘 (TCP_NODELAY) 및 네이글 알로리즘에서의 Send가 이루어지는 조건
-> * 위와 관련하여, MTU, MSS 약자 및 정의
+> * 소켓 옵션들 정리
+> * 그중에서 네이글 알고리즘 (TCP_NODELAY) 및 네이글 알로리즘에서의 Send가 이루어지는 조건
+> * 그중에서 킵얼라이브
+> * 그중에서 주소 재사용
+> * 그중에서 링거
 
 > * 멀티쓰레드 모델
 > * Select 모델 원리
@@ -31,10 +33,12 @@
 > * silly window syndrome?
 > * Tcp Packet Loss algorithm
 > * TCP 혼잡 제어, 흐름 제어는 어케?
+> * MTU, MSS (+Data Fragmentation, Reassembly )
 
 > * IP, Port, MAC ADDR ?
 > * OSI 7계층의 각 계층 명칭 및 간단한 정의, 역할 등 서술
-> * p2p NAT 투과 : 홀 펀칭(TCP) & Simple traversal of UDP through NAT(UDP)
+> * p2p NAT 투과 : 홀 펀칭(TCP) & STUN : Simple traversal of UDP through NAT(UDP)
+> * DNS 서버 동작 원리
 
 ___
 
